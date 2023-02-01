@@ -1,0 +1,1 @@
+MODEL_FILE_PATH = r'project_app/logistic_model.pkl'
