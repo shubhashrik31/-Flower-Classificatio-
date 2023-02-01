@@ -25,7 +25,7 @@ def get_insurance_charges():
         print(f'one >> {one}, two >>{two} , three >> {three},four >> {four}')
         med_ins = MedicalInsurance(one,two,three,four)    
         Charges = med_ins.predict_charges()
-        return render_template('Result.html',Charges=Charges)
+        return render_template('result.html',Charges=Charges)
         # return jsonify({f'Hello {name}': f' Your Predicted Medical Insurance Charges are:  RS.{Charges} '})
         
 if __name__ == "__main__":
